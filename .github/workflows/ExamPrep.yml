@@ -22,12 +22,6 @@ jobs:
         node-version: 22.x
         cache: 'npm'
 
-
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
     - name: Install Dependencies
       run: npm i
 
@@ -37,3 +31,4 @@ jobs:
 
     - name: Display Softuni UserName
       run: echo "SoftUni Username = PowerCell12"
+
