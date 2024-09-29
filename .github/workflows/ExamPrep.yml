@@ -56,7 +56,7 @@ jobs:
 
 
   start-render:
-      needs: [unit-tests, ui-tests]
+      needs: [unit-tests]
       
       runs-on: ubuntu-latest
       
