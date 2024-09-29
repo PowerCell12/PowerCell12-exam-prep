@@ -34,7 +34,7 @@ jobs:
 
 
   ui-tests:
-
+    needs: unit-tests
     runs-on: ubuntu-latest
 
     steps:
